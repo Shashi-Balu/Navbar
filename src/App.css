@@ -1,0 +1,114 @@
+.navbar {
+    text-align: center;
+    font-size: 1.3rem;
+    color: black;
+    padding: 1rem;
+    background-color: rgb(147, 197, 146);
+}
+
+.nav-link {
+    color: rgb(0, 44, 44);
+    text-decoration: none;
+    margin: 2rem;
+}
+
+.active {
+    font-style: bold;
+}
+.home-img {
+    position: absolute;
+}
+
+.header {
+    font-weight: 300;
+    font-size: 6rem;
+    padding: 17rem 0 0 29rem;
+    position: relative;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    color: rgb(0, 44, 44);
+    animation: color-change 3s infinite alternate;
+    text-shadow: -1px 3px 3px rgba(255, 255, 255, 0.3);
+}
+
+@keyframes color-change {
+    0% {
+        color: rgb(0, 44, 44);
+    }
+
+    50% {
+        color: rgb(147, 197, 146);
+    }
+
+    100% {
+        color: rgb(0, 44, 44);
+    }
+}
+
+.collections {
+    margin: 2.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+    overflow: hidden;
+}
+
+.collection-image {
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+
+    object-fit: cover;
+    transition: all 1s;
+}
+
+.collection-image:hover {
+    transform: scale(1.1);
+}
+
+.collection-header {
+    text-align: center;
+    font-size: 2.3rem;
+    margin: 1.5rem;
+    color: rgb(0, 44, 44);
+    font-weight: 500;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact-header {
+    margin: 3rem;
+    font-size: 2.3rem;
+    color: rgb(0, 44, 44);
+    font-weight: 500;
+    margin-bottom: 7rem;
+}
+.contact-para {
+    font-size: 1.4rem;
+    margin: 3rem;
+}
+.contact-para strong {
+    color: rgb(147, 197, 146);
+}
+
+.about-para {
+    font-size: 1.2rem;
+    margin: 3rem;
+    letter-spacing: 2px;
+}
+
+.quote {
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(147, 197, 146);
+}
+
+.about-header {
+    text-align: center;
+    font-size: 2.3rem;
+    margin: 3rem;
+    color: rgb(0, 44, 44);
+    font-weight: 500;
+}

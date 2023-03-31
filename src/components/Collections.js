@@ -5,67 +5,105 @@ const Collections = () => {
         <>
             <h3 className="collection-header">Our Collections</h3>
             <div className="collections">
-                <img className="collection-image" src="https://source.unsplash.com/250x400/?fire" />
-                <img className="collection-image" src="https://source.unsplash.com/250x400/?road" />
+                <img
+                    className="collection-image"
+                    src="https://source.unsplash.com/250x400/?fire"
+                    alt="Fire"
+                />
+                <img
+                    className="collection-image"
+                    src="https://source.unsplash.com/250x400/?utensils"
+                    alt="Utensils"
+                />
                 <img
                     className="collection-image"
                     src="https://source.unsplash.com/250x400/?beach"
+                    alt="Beach"
                 />
                 <img
                     className="collection-image"
                     src="https://source.unsplash.com/250x400/?animal"
+                    alt="Animal"
                 />
                 <img
                     className="collection-image"
                     src="https://source.unsplash.com/250x400/?ice-cream"
+                    alt="Ice cream"
                 />
                 <img
                     className="collection-image"
                     src="https://source.unsplash.com/250x400/?blazer"
+                    alt="Blazer"
                 />
                 <img
                     className="collection-image"
                     src="https://source.unsplash.com/250x400/?music"
+                    alt="Music"
                 />
-                <img className="collection-image" src="https://source.unsplash.com/250x400/?tech" />
+                <img
+                    className="collection-image"
+                    src="https://source.unsplash.com/250x400/?tech"
+                    alt=""
+                />
                 <img
                     className="collection-image"
                     src="https://source.unsplash.com/250x400/?window"
+                    alt="Window"
                 />
                 <img
                     className="collection-image"
                     src="https://source.unsplash.com/250x400/?flowers"
+                    alt="Flowers"
                 />
                 <img
                     className="collection-image"
                     src="https://source.unsplash.com/250x400/?bottle"
+                    alt="Bottle"
                 />
                 <img
                     className="collection-image"
                     src="https://source.unsplash.com/250x400/?spectacles"
+                    alt="Spectacles"
                 />
                 <img
                     className="collection-image"
                     src="https://source.unsplash.com/250x400/?school"
+                    alt="School"
                 />
                 <img
                     className="collection-image"
                     src="https://source.unsplash.com/250x400/?celebrity"
+                    alt="Celebrity"
                 />
                 <img
                     className="collection-image"
                     src="https://source.unsplash.com/250x400/?jewelery"
+                    alt="Jewelery"
                 />
-                <img className="collection-image" src="https://source.unsplash.com/250x400/?cars" />
-                <img className="collection-image" src="https://source.unsplash.com/250x400/?pot" />
-                <img className="collection-image" src="https://source.unsplash.com/250x400/?bike" />
+                <img
+                    className="collection-image"
+                    src="https://source.unsplash.com/250x400/?cars"
+                    alt="Cars"
+                />
+                <img
+                    className="collection-image"
+                    src="https://source.unsplash.com/250x400/?pot"
+                    alt="Pot"
+                />
+                <img
+                    className="collection-image"
+                    src="https://source.unsplash.com/250x400/?bike"
+                    alt="Bike"
+                />
                 <img
                     className="collection-image"
                     src="https://source.unsplash.com/250x400/?embroidery"
+                    alt="Embroidery"
                 />
                 <img
                     className="collection-image"
                     src="https://source.unsplash.com/250x400/?knitting"
+                    alt="Knitting"
                 />
             </div>
         </>

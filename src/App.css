@@ -1,15 +1,33 @@
 .navbar {
-    text-align: center;
     font-size: 1.3rem;
-    color: black;
-    padding: 1rem;
+    display: flex;
+    padding: 0;
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.nav-link-box {
+    color: #002c2c;
+    text-decoration: none;
+    margin: 1rem;
     background-color: rgb(147, 197, 146);
 }
 
-.nav-link {
-    color: rgb(0, 44, 44);
-    text-decoration: none;
-    margin: 2rem;
+.nav-link-box:first-child {
+    margin-left: 6rem;
+}
+
+.nav-item {
+    margin: -1px;
+}
+
+.nav-item,
+#navbarNav,
+.navbar-toggler-icon,
+.container-fluid {
     background-color: rgb(147, 197, 146);
 }
 
@@ -17,11 +35,19 @@
     font-weight: 600;
 }
 .home {
+    margin-top: 48px;
     max-width: 100%;
 }
 .home-img {
     position: absolute;
     width: 100%;
+    margin-top: 1rem;
+}
+
+.logo {
+    background-color: transparent;
+    width: 8rem;
+    height: 5rem;
 }
 
 .header {
@@ -77,10 +103,12 @@
     margin: 1.5rem;
     color: rgb(0, 44, 44);
     font-weight: 500;
+    margin-top: 6rem;
 }
 
 .contact {
     display: flex;
+    margin-top: 5rem;
 }
 
 .contact-header {
@@ -121,6 +149,7 @@
     margin: 3rem;
     color: rgb(0, 44, 44);
     font-weight: 500;
+    margin-top: 6rem;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -160,20 +189,43 @@
 @media only screen and (max-width: 600px) {
     .header {
         font-size: 2rem;
+        padding-top: 73%;
+    }
+
+    .logo {
+        width: 5rem;
+        height: 3rem;
     }
     .about-header,
     .collection-header,
     .contact-header {
         font-size: 1.5rem;
     }
+    .contact {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .contact-img {
+        width: 170%;
+    }
 
     .about-para,
     .contact-para {
         font-size: 0.9rem;
     }
+    .contact-para,
+    .contact-header {
+        margin-left: 1rem;
+        text-align: justify;
+    }
+
+    .contact-img {
+        width: 166%;
+    }
 
     .navbar {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     .nav-link {
         margin: 1rem;
@@ -191,7 +243,16 @@
         width: 40%;
     }
 
-    .contact-img {
-        height: 90%;
+    .home-img {
+        margin-top: 0;
+        height: 92.8%;
+    }
+
+    .nav-item:not(:last-child) {
+        margin: -1px;
+    }
+
+    .nav-item:last-child {
+        margin: 0 -1px;
     }
 }

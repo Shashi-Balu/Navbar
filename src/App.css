@@ -15,20 +15,24 @@
 .active {
     font-style: bold;
 }
+.home {
+    max-width: 100%;
+}
 .home-img {
     position: absolute;
+    width: 100%;
 }
 
 .header {
     font-weight: 300;
     font-size: 6rem;
-    padding: 17rem 0 0 29rem;
+    padding-top: 20%;
+    text-align: center;
     position: relative;
     letter-spacing: 1rem;
     text-transform: uppercase;
     color: rgb(0, 44, 44);
     animation: color-change 3s infinite alternate;
-    text-shadow: -1px 3px 3px rgba(255, 255, 255, 0.3);
 }
 
 @keyframes color-change {
@@ -92,6 +96,10 @@
     color: rgb(147, 197, 146);
 }
 
+.contact-img {
+    width: 100%;
+}
+
 .about-para {
     font-size: 1.2rem;
     margin: 3rem;
@@ -111,4 +119,57 @@
     margin: 3rem;
     color: rgb(0, 44, 44);
     font-weight: 500;
+}
+
+@media only screen and (max-width: 1200px) {
+    .header {
+        font-size: 4rem;
+    }
+    .about-header,
+    .collection-header,
+    .contact-header {
+        font-size: 2rem;
+    }
+
+    .about-para,
+    .contact-para {
+        font-size: 1rem;
+    }
+
+    .contact-header {
+        margin: 1rem 0 1rem 0;
+    }
+    .contact-img {
+        width: 85%;
+    }
+    .contact-para {
+        margin: 0.8rem 0rem;
+    }
+
+    .contact {
+        background-color: #000;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        font-size: 2rem;
+    }
+    .about-header,
+    .collection-header,
+    .contact-header {
+        font-size: 1.5rem;
+    }
+
+    .about-para,
+    .contact-para {
+        font-size: 0.9rem;
+    }
+
+    .navbar {
+        font-size: 0.9rem;
+    }
+    .nav-link {
+        margin: 1.3rem;
+    }
 }

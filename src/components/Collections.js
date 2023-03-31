@@ -57,6 +57,16 @@ const Collections = () => {
                     src="https://source.unsplash.com/250x400/?jewelery"
                 />
                 <img className="collection-image" src="https://source.unsplash.com/250x400/?cars" />
+                <img className="collection-image" src="https://source.unsplash.com/250x400/?pot" />
+                <img className="collection-image" src="https://source.unsplash.com/250x400/?bike" />
+                <img
+                    className="collection-image"
+                    src="https://source.unsplash.com/250x400/?embroidery"
+                />
+                <img
+                    className="collection-image"
+                    src="https://source.unsplash.com/250x400/?knitting"
+                />
             </div>
         </>
     );

@@ -5,12 +5,12 @@ import Collections from "./components/Collections";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
     return (
         <div className="App">
             <BrowserRouter>
-                {" "}
                 <Navbar />
                 <Routes>
                     <Route path={"/"} element={<Home />}></Route>
@@ -19,6 +19,7 @@ function App() {
                     <Route path={"/about"} element={<About />}></Route>
                 </Routes>
             </BrowserRouter>
+            <Footer />
         </div>
     );
 }

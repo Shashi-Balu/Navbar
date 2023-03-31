@@ -5,6 +5,11 @@ const About = () => {
         <div>
             <h3 className="about-header">Iris Photography</h3>
             <p className="about-para">
+                <strong>
+                    <em>"This website display random images on refresh."</em>
+                </strong>
+            </p>
+            <p className="about-para">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute

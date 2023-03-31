@@ -36,6 +36,27 @@ const Collections = () => {
                     className="collection-image"
                     src="https://source.unsplash.com/250x400/?flowers"
                 />
+                <img
+                    className="collection-image"
+                    src="https://source.unsplash.com/250x400/?bottle"
+                />
+                <img
+                    className="collection-image"
+                    src="https://source.unsplash.com/250x400/?spectacles"
+                />
+                <img
+                    className="collection-image"
+                    src="https://source.unsplash.com/250x400/?school"
+                />
+                <img
+                    className="collection-image"
+                    src="https://source.unsplash.com/250x400/?celebrity"
+                />
+                <img
+                    className="collection-image"
+                    src="https://source.unsplash.com/250x400/?jewelery"
+                />
+                <img className="collection-image" src="https://source.unsplash.com/250x400/?cars" />
             </div>
         </>
     );

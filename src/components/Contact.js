@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <div className="contact">
             <div className="left">
-                <img className="contact-img" src="https://source.unsplash.com/700x720/?telephone" />
+                <img className="contact-img" src="https://source.unsplash.com/700x700/?telephone" />
             </div>
             <div className="right">
                 <h3 className="contact-header">Contact Us</h3>

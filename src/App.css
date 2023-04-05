@@ -1,9 +1,18 @@
+:root {
+    --font-head-large: 2.1rem;
+    --font-body-large: 1.1rem;
+    --font-head-medium: 2rem;
+    --font-body-medium: 1rem;
+    --font-head-small: 1.5rem;
+    --font-body-small: 0.9rem;
+}
+
 .navbar {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     display: flex;
     padding: 0;
     text-align: right;
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     z-index: 2;
@@ -35,13 +44,11 @@
     font-weight: 600;
 }
 .home {
-    margin-top: 48px;
     max-width: 100%;
 }
 .home-img {
     position: absolute;
     width: 100%;
-    margin-top: 1rem;
 }
 
 .logo {
@@ -89,7 +96,6 @@
 
 .collection-image {
     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
-
     object-fit: cover;
     transition: all 1s;
 }
@@ -100,27 +106,25 @@
 
 .collection-header {
     text-align: center;
-    font-size: 2.3rem;
+    font-size: var(--font-head-large);
     margin: 1.5rem;
     color: rgb(0, 44, 44);
     font-weight: 500;
-    margin-top: 6rem;
 }
 
 .contact {
     display: flex;
-    margin-top: 5rem;
 }
 
 .contact-header {
     margin: 3rem;
-    font-size: 2.3rem;
+    font-size: var(--font-head-large);
     color: rgb(0, 44, 44);
     font-weight: 500;
     margin-bottom: 4rem;
 }
 .contact-para {
-    font-size: 1.4rem;
+    font-size: var(--font-body-large);
     margin: 3rem;
 }
 .contact-para strong {
@@ -129,10 +133,11 @@
 
 .contact-img {
     width: 100%;
+    margin-top: -2rem;
 }
 
 .about-para {
-    font-size: 1.2rem;
+    font-size: var(--font-body-large);
     margin: 3rem;
     letter-spacing: 2px;
 }
@@ -146,11 +151,10 @@
 
 .about-header {
     text-align: center;
-    font-size: 2.3rem;
+    font-size: var(--font-head-large);
     margin: 3rem;
     color: rgb(0, 44, 44);
     font-weight: 500;
-    margin-top: 6rem;
 }
 
 .footer {
@@ -187,17 +191,18 @@
     .about-header,
     .collection-header,
     .contact-header {
-        font-size: 2rem;
+        font-size: var(--font-head-medium);
     }
 
     .about-para,
     .contact-para {
-        font-size: 1rem;
+        font-size: var(--font-body-medium);
     }
 
     .contact-header {
         margin: 1rem 0 1rem 0;
     }
+
     .contact-img,
     .left {
         width: 85%;
@@ -227,7 +232,7 @@
     .about-header,
     .collection-header,
     .contact-header {
-        font-size: 1.5rem;
+        font-size: var(--font-head-small);
     }
     .contact {
         flex-direction: column;
@@ -240,7 +245,7 @@
 
     .about-para,
     .contact-para {
-        font-size: 0.9rem;
+        font-size: var(--font-body-small);
     }
     .contact-para,
     .contact-header {
@@ -253,7 +258,7 @@
     }
 
     .navbar {
-        font-size: 1rem;
+        font-size: var(--font-body-medium);
     }
     .nav-link {
         margin: 1rem;
@@ -264,7 +269,8 @@
     }
 
     .quote {
-        width: 100%;
+        width: 90%;
+        text-align: center;
     }
 
     .collection-image {
